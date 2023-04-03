@@ -50,10 +50,10 @@ using c32 = char32_t;
 #define print_string_to_char_array(k) print_string_to_charrr(k)
 
 
-#define mul(x,y) multiply(x,y)
-#define div(x,y) divide(x,y)
-#define sub(x,y) subtract(x,y)
-#define add(x,y) add_(x,y)
+#define mul(x,y) (x*y)
+#define div(x,y) (x/y)
+#define sub(x,y) (x-y)
+#define add(x,y) (x+y)
 #define square(x) (x*x)
 #define cube(x) (x*x*x)
 
