@@ -1,5 +1,5 @@
 # vyn
-This might be helpful for cpp users as the repository contains most of commonly used functionalities in cpp as macros in a way to simplify the code for each of the functionalities. Hope this helps, Thanks!
+This might be helpful for cpp users as this repository contains most of the commonly used functionalities in cpp as macros and functions, in a way to simplify the code on its usage. Hope this helps, Thanks!
 
 All of these programs must have vyn.cpp included as a header file to execute.
 
