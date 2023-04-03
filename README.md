@@ -1,6 +1,5 @@
 # vyn
-Implementations of vyn.cpp
-
+This file might be helpful for cpp users as the file contains most of commonly used functionalities in cpp as macros in a way to simplify the code for each of the functionalities. Hope this helps, Thanks!
 
 All of these programs must have vyn.cpp included as a header file to execute.
 
