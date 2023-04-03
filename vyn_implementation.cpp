@@ -37,6 +37,10 @@ int main(){
     print char_to_ascii('a') line;
     print "Palindrome, if yes 1, else 0:\n"<<palindrome("madam") line;
     print "a" tab "b" line;
+    ui32 a = 1;
+    ui32 b = 2;
+    ui32 c = add(a,b);
+    print c line;
     system_write("ls"); // for LINUX
     print get_system_write("ls") line;
     done;
