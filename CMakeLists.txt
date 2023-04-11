@@ -7,14 +7,3 @@ ADD_LIBRARY(${PROJECT_NAME}  SHARED vyn.cpp)
 ADD_EXECUTABLE(vyn_implementation vyn_implementation.cpp)
 
 TARGET_LINK_LIBRARIES(vyn_implementation ${PROJECT_NAME})
-
-
-
-
-cmake_minimum_required(VERSION 3.16.3)
-project(VYN_EXECUTE)
-
-ADD_LIBRARY(${PROJECT_NAME} SHARED vyn.cpp)
-TARGET_INCLUDE_DIRECTORIES(${PROJECT_NAME} PRIVATE vyn.cpp)
-ADD_EXECUTABLE(IMPLEMENT vyn_implementation.cpp)
-TARGET_LINK_LIBRARIES(IMPLEMENT ${PROJECT_NAME})
